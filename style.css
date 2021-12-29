@@ -1,0 +1,135 @@
+/* Global */
+:root {
+  /* Color */
+  --color-white: #f8f9fa;
+  --color-black: #212529;
+  --color-green: #81b29a;
+  --color-orange: #e07a5f;
+  --color-dark-yellow: #f2cc8f;
+  --color-light-yellow: #f4f1de;
+
+  /* Font size */
+  --font-medium: 1.75rem;
+  --font-regular: 1.25rem;
+
+  /* Font weight */
+  --weight-medium: 500;
+  --weight-regular: 400;
+
+  /* Size */
+  --size-checkbox: 2rem;
+  --position-arrow-up: 3rem;
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: var(--color-green);
+}
+
+.header__title {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-medium);
+  color: var(--color-white);
+}
+
+.scroll {
+  padding: 0.5em 1em;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-medium);
+  color: var(--color-black);
+  background-color: var(--color-orange);
+  border: solid 2px var(--color-black);
+  border-radius: 40px;
+}
+
+/* Vocabulary list */
+.vocabulary-list {
+  height: 100%;
+  margin: 0;
+  padding: 2em;
+  padding-top: 7em;
+  background-color: var(--color-white);
+}
+
+.vocabulary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 62.5rem;
+  margin: auto;
+  margin-bottom: 1em;
+  padding: 1em;
+  font-size: var(--font-regular);
+  font-weight: var(--font-regular);
+  color: var(--color-black);
+  background-color: var(--color-light-yellow);
+  border-radius: 4px;
+}
+
+.vocabulary:hover {
+  background-color: var(--color-dark-yellow);
+}
+
+.vocabulary__checkbox {
+  width: var(--size-checkbox);
+  height: var(--size-checkbox);
+}
+
+.vocabulary__content {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.5em;
+}
+
+/* Arrow-up */
+.arrow-up {
+  position: fixed;
+  bottom: var(--position-arrow-up);
+  right: var(--position-arrow-up);
+  padding: 0.25em 0.35em;
+  font-size: var(--font-medium);
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* For screen width below 68rem */
+@media screen and (max-width: 68rem) {
+  :root {
+    --position-arrow-up: 1rem;
+  }
+}

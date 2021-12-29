@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": 0,
+      "word": "constitute",
+      "meaning": "구성하다"
+    },
+    {
+      "id": 1,
+      "word": "raise",
+      "meaning": "들어올리다"
+    },
+    {
+      "id": 2,
+      "word": "draw",
+      "meaning": "그리다"
+    },
+    {
+      "id": 3,
+      "word": "coziness",
+      "meaning": "아늑함"
+    },
+    {
+      "id": 4,
+      "word": "confirm",
+      "meaning": "확정하다"
+    },
+    {
+      "id": 5,
+      "word": "sustain",
+      "meaning": "지속시키다"
+    },
+    {
+      "id": 6,
+      "word": "bring",
+      "meaning": "가져오다"
+    },
+    {
+      "id": 7,
+      "word": "exercise",
+      "meaning": "운동"
+    },
+    {
+      "id": 8,
+      "word": "commit",
+      "meaning": "저지르다"
+    },
+    {
+      "id": 9,
+      "word": "serve",
+      "meaning": "제공하다"
+    },
+    {
+      "id": 10,
+      "word": "urge",
+      "meaning": "충고하다"
+    },
+    {
+      "id": 11,
+      "word": "available",
+      "meaning": "구할 수 있는"
+    },
+    {
+      "id": 12,
+      "word": "suggest",
+      "meaning": "제안하다"
+    },
+    {
+      "id": 13,
+      "word": "strike",
+      "meaning": "치다"
+    },
+    {
+      "id": 14,
+      "word": "lead",
+      "meaning": "안내하다"
+    },
+    {
+      "id": 15,
+      "word": "definitely",
+      "meaning": "분명히"
+    },
+    {
+      "id": 16,
+      "word": "since",
+      "meaning": "…부터"
+    },
+    {
+      "id": 17,
+      "word": "convince",
+      "meaning": "납득시키다"
+    },
+    {
+      "id": 18,
+      "word": "effect",
+      "meaning": "영향"
+    },
+    {
+      "id": 19,
+      "word": "claim",
+      "meaning": "주장하다"
+    }
+  ]
+}
